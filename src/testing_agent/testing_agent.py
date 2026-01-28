@@ -32,9 +32,9 @@ class TestingAgent(CompetitionAgent):
         self.player_events = []
         
         # Override event handlers (matches original handlers)
-        self._sim_agent.simulation_event_handlers[EntitySpawned] = self.__entity_spawned
-        self._sim_agent.simulation_event_handlers[AdversaryContact] = self.__adversary_contact
-        self._sim_agent.simulation_event_handlers[ComponentSpawned] = self.__component_spawned
+        #self._sim_agent.simulation_event_handlers[EntitySpawned] = self.__entity_spawned
+        #self._sim_agent.simulation_event_handlers[AdversaryContact] = self.__adversary_contact
+        #self._sim_agent.simulation_event_handlers[ComponentSpawned] = self.__component_spawned
     
     @property
     def log_prefix(self):
