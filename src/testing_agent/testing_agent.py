@@ -47,6 +47,8 @@ class TestingAgent(CompetitionAgent):
         print(f"{self.log_prefix}{message}")
     
     def select_action(self, observation):
+        self.log("Selecting action")
+
         return super().select_action(observation)
 
     def __entity_spawned(self, event):
