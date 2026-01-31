@@ -50,7 +50,7 @@ for _ in range(1000):
 
 - **Website**: [war.game](https://war.game)
 - **Environment Repo**: [github.com/CodeMetalAI/w4a](https://github.com/CodeMetalAI/w4a)
-- **Discord**: [Join for updates and questions!](LINK)
+- **Discord**: [Join for updates and questions!](https://discord.gg/wargame)
 
 ## Contact
 
